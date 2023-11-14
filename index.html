@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RegTech@ADAPT</title>
+    <meta
+      name="description"
+      content="A classic company or blog layout with a sidebar. Built with Pico CSS."
+    />
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico" />
+    <link rel="canonical" href="https://picocss.com/examples/company/" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+    <style type="text/css">
+      body {
+        max-width: 90vw;
+        margin: auto;
+      }
+      .container {
+        max-width: 90vw;
+      }
+      nav {
+        padding: 15px;
+      }
+      hgroup {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+      <nav>
+        <ul>
+          <li><a href="./"><strong>RegTech</strong></a></li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox" role="link">Research</summary>
+              <ul role="listbox">
+                <li><a href="projects">Projects</a></li>
+                <li><a href="publications">Publications</a></li>
+                <li><a href="resources">Resources</a></li>
+              </ul>
+            </details>
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox" role="link">Regulations</summary>
+              <ul role="listbox">
+                <li><a href="projects">GDPR</a></li>
+                <li><a href="publications">AI Act</a></li>
+                <li><a href="resources">Data Governance Act</a></li>
+                <li><a href="brexit">Brexit</a></li>
+                <li><a href="standards">Standards</a>
+              </ul>
+            </details>
+          </li>
+          <li><a href="contact">Contact</a></li>
+          </li>
+        </ul>
+      </nav>
+      <hgroup>
+          <h1>RegTech</h1>
+          <h2>ADAPT SFI Research Centre</h2>
+        <img src="media/undraw_innovative_re_rr5i.svg">
+      </hgroup>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+        <section>
+          <article>
+            <hgroup>
+              <h2>Upcoming AI Act</h2>
+              <h3>Regulatory Compliance</h3>
+            </hgroup>
+            <figure>
+              <img src="https://harshp.com/research/publications/img/060-annexIII.png" />
+              <figcaption>
+                Image from FAccT paper</a>
+              </figcaption>
+            </figure>
+            <p>
+              The EU AI Act, the first proposed legal regime for development and use of AI systems, sets out a risk-based approach and proposes binding requirements for those who provide and use “high-risk” AI systems that are likely to cause serious harms to health, safety, or fundamental rights of individuals. Considering the EU’s global influence on technology-related rulemaking, which has already manifested in the data protection area with the enforcement of the General Data Protection Regulation (GDPR), soon similar AI regulations are expected to be developed by governments worldwide.
+              <br/><a href="projects/AI-Act">see research on AI Act</a>
+            </p>
+          </article>
+        </section>
+        <aside>
+          <article>
+            <h4>To Be High-Risk, or Not To Be</h4>
+            <p>"To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards" - presented at Conference on Fairness, Accountability, and Transparency (FAccT 2023) <br/>
+              <a href="https://doi.org/10.1145/3593013.3594050">Access publication</a></p>
+          </article>
+          <article>
+            <h4>AI Act Risk Assessment Tool</h4>
+            <p>A tool to assist you determine whether an AI system is High-Risk according to Annex III of the EU AI Act. Access the tool:
+            <a href="https://regtech.adaptcentre.ie/highrisk">high-risk version</a>; <a href="https://harshp.com/ai_act_risk">extended version</a></p>
+            <small>resolve double links later</small>
+          </article>
+          <article>
+            <h4>Vocabulary of AI Risks (VAIR)</h4>
+            <p>VAIR is an open vocabulary for AI risks. VAIR is intended to assist with identification and documentation of risks by providing a common vocabulary that facilitates knowledge sharing and interoperability between actors in the AI value chain. VAIR provides semantic specifications for cataloguing AI risks in a FAIR (Findable, Accessible, Interoperable, Reusable) manner. 
+              <a href="https://w3id.org/VAIR">View Vocabulary of AI Risks (VAIR)</a></p>
+          </article>
+        </aside>
+      </div>
+      <div class="grid">
+        <section>
+          <article>
+            <hgroup>
+              <h2>GDPR</h2>
+              <h3>Efficient Compliance</h3>
+            </hgroup>
+            <figure>
+              <img src="https://w3c.github.io/dpv/diagrams/base.png" />
+              <figcaption>
+                Data Privacy Vocabulary (DPV)</a>
+              </figcaption>
+            </figure>
+            <p>The General Data Protection Regulation (GDPR) is the new European data protection legislation that enters into force on 25th May 2018. It is an important legislation in terms of changes to the organisational measures required for compliance. In particular, GDPR focuses on the use of consent and personal data and provides the data subject with several rights. These new changes have spurred innovation within the community - both in the industry as well as in academia - that targets compliance with the various obligations of the GDPR. Our research enables organisations and tools to record and measure solutions for compliance towards specific obligations through machine-readable information that enables efficient compliance based on automation.
+              <br/><a href="GDPR">see research on GDPR</a>
+            </p>
+          </article>
+        </section>
+        <aside>
+          <article>
+            <h4>GDPRtEXT</h4>
+            <p>"GDPRtEXT - GDPR as a Linked Data Resource" - presented at Extended Semantic Web Conference (ESWC 2018)</p>
+            <p><a href="http://hdl.handle.net/2262/91559">Access publication</a></p>
+          </article>
+          <article>
+            <h4>Data Privacy Vocabulary (DPV)</h4>
+            <p>
+              The Data Privacy Vocabulary (DPV) enables machine-readable metadata about the use and processing of personal data based on legislative requirements such as the General Data Protection Regulation (GDPR). 
+            </p>
+            <p><a href="https://w3id.org/dpv">View Data Privacy Vocabulary (DPV)</a></p>
+          </article>
+        </aside>
+      </div>
+    </main>
+
+    <article id="why-bother">
+      <h2>What information should be on this website?</h2>
+      <p>The objective of this website is to:</p>
+      <ol>
+        <li>Collect information related to our "regtech" work in a single location (i.e. this website)</li>
+        <li>Provide topical information collections e.g. work on GDPR, or work on AI Act</li>
+        <li>Share a comprehensive list of publications associated with "regtech"</li>
+        <li>Share outputs, methods, resources - anything that can be "reused" or "extended" to encourage adoption and collaboration</li>
+        <li>Share details about projects (funded as well as adhoc)</li>
+        <li>Share details about involvements in activities and groups e.g. DPVCG, NSAI, CEN, ISO</li>
+        <li>Share the people involved and show presence of a 'team'</li>
+        <li>Provide contact information</li>
+      </ol>
+      <small>For comparison, <a href="https://www.adaptcentre.ie/case-studies/transparent-digital-governance/">see ADAPT TDG section</a> and also the <a href="https://openscience.adaptcentre.ie/">openscience website</a> I maintained during the PhD; and as an external example see <a href="https://knows.idlab.ugent.be/">website by KNOWS group in Ghent</a>.</small>
+    </article>
+    
+    <footer class="container">
+      <p><small>Attributions to TCD for hosting, SFI for funding</small></p>
+      <p><small>Built with <a href="https://picocss.com">Pico</a></small></p>
+    </footer>
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+  </body>
+</html>
+s
